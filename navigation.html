@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Navigation and links showcase for COMP 2511">
+    <meta name="author" content="Meme">
+    <title>Navigation and Links | Meme's HTML Showcase</title>
+</head>
+
+<body id="top">
+
+    <header>
+        <h1>Meme's HTML Showcase</h1>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="semantic.html">Semantic HTML</a></li>
+                <li><a href="lists-tables.html">Lists &amp; Tables</a></li>
+                <li><a href="figures.html">Figures &amp; Images</a></li>
+                <li><a href="navigation.html">Navigation</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>HTML Navigation</h2>
+
+            <p>
+                HTML links allow users to move between webpages and
+                different sections of the same webpage. Links are created
+                using the <code>&lt;a&gt;</code> element, also called the
+                anchor element.
+            </p>
+
+            <p>
+                The <code>href</code> attribute specifies the destination
+                of a link. For example,
+                <code>&lt;a href="semantic.html"&gt;</code> creates a link
+                to the semantic HTML page.
+            </p>
+        </section>
+
+        <section>
+            <h2>Internal Page Links</h2>
+
+            <p>
+                Internal links connect pages within the same website.
+                The links below use relative file paths to connect to
+                other pages in this showcase.
+            </p>
+
+            <ul>
+                <li>
+                    <a href="../index.html">Go to the Home page</a>
+                </li>
+
+                <li>
+                    <a href="semantic.html">Go to the Semantic HTML page</a>
+                </li>
+
+                <li>
+                    <a href="lists-tables.html">Go to the Lists and Tables page</a>
+                </li>
+
+                <li>
+                    <a href="figures.html">Go to the Figures and Images page</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="examples">
+            <h2>Same-Page Links</h2>
+
+            <p>
+                A link can also move the user to a specific section of
+                the same webpage. This is done by giving an element an
+                <code>id</code> and using that value after a
+                <code>#</code> in the link.
+            </p>
+
+            <p>
+                For example, this link returns to the examples section:
+                <a href="#examples">Return to the examples section</a>.
+            </p>
+
+            <p>
+                The <code>id</code> value in
+                <code>id="examples"</code> matches the
+                <code>#examples</code> portion of the link.
+            </p>
+        </section>
+
+        <section>
+            <h2>External Links</h2>
+
+            <p>
+                External links can take users to websites outside of the
+                current website. For example, this link takes users to
+                the Mozilla Developer Network HTML documentation:
+            </p>
+
+            <p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                    Visit MDN HTML Documentation
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Relative File Paths</h2>
+
+            <p>
+                Because this page is inside the
+                <code>pages</code> folder, the link
+                <code>../index.html</code> uses <code>..</code> to move
+                up one folder before opening the homepage.
+            </p>
+
+            <p>
+                Links to other pages inside the same folder can use the
+                filename directly, such as
+                <code>semantic.html</code>.
+            </p>
+        </section>
+
+        <section>
+            <h2>What I Learned</h2>
+
+            <p>
+                I learned that navigation is an important part of
+                organizing a website because it allows users to move
+                between pages and find information. I also learned how
+                relative paths work when files are stored in different
+                folders.
+            </p>
+
+            <p>
+                I learned how to create links to other webpages, links
+                to specific sections of the same webpage, and links to
+                external websites. Using meaningful link destinations
+                makes a website easier to navigate.
+            </p>
+        </section>
+
+        <section>
+            <h2>Reference</h2>
+
+            <p>
+                The anchor element and linking concepts were researched
+                using Mozilla Developer Network documentation. See the
+                <a href="references.html">References</a> page for the
+                complete IEEE reference.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Meme. COMP 2511 HTML Showcase.
+        </p>
+
+        <p>
+            <a href="#top">Return to top</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
